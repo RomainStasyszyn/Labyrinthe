@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf8"?>
+<bonus>
+
+	<!-- QUESTION BONUS 1 -->
+	<question num="1">
+	  Il faut et il suffit d'exécuter une seule fois la boucle tant que car nous parcourons toutes les cases de la grille de la première à la dernière dans l'ordre des id.
+	  Dès que la case courante a une ou plusieurs cellule(s) voisine(s) non connectée(s) avec elle on en choisit une parmi les non connectées,
+	  puis on casse le mur adjacent aux deux cellules et on change les id en conséquence afin de connecter les deux anciens groupes de cellules connectées entre elles pour          les regrouper en un seul nouveau groupe.
+	</question>
+
+	<!-- QUESTION BONUS 2 -->
+	<question num="2">
+
+
+	</question>
+
+	<!-- QUESTION BONUS 3 -->
+	<question num="3">
+	  Cela dépend de la taille de la grille, pour une grille de quatre lignes et six colonnesnosu avons : parfois un seul parcours de la boucle tant que permet 
+	  d'obtenir un labyrinthe. D'autres fois il faut un deuxième parcours de la boucle tant que afin de conneter les dernières cellules récalcitrantes. 
+	  Après avoir lancé un million de fois la méthode makeLaby, il semblerait que dans 15,3% des cas un seul parcours de la boucle tant que suffit pour obtenir 
+	  un labyrinthe et dans 84,7% des cas deux parcours sont nécessaires.
+	  Pour une grille de douze lignes et dix colonnes il faut au moins deux parcours et parfois trois. Le pourcentage est plutôt équilibre pratiquement autant de 
+	  double parcours que de triple.
+	  Observations : pour une grille de dix colonnes, au delà de treize lignes il y a un parcours qui semble infini, le labyrinthe n'est pas généré en temps acceptable.
+	  Pour 30 lignes et >27 colonnes le labyrinthe est généré mais en dessous de 28 colonnes c'est pareil le labyrinthe ne se génère pas, en tout cas en temps raisonnable.
+	  Il semblerait donc qu'essayer de générer un labyrinthe avec beaucoup plus de lignes que de colonnes pose problème pour notre programme...
+	  Aucune piste à propos de cela...
+	</question>
+
+</bonus>
